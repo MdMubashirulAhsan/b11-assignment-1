@@ -344,15 +344,56 @@ text-align: center;
   color: #0E0E0E;
   text-align: center;}
 
-  #donate-colored{
+  /*#donate-colored{
     background-color: #C6E4D6;
-  }
+  }*/
 .donate-form{
   margin-bottom: 32px;
   padding: 30px 100px 30px 100px;
   
 }
+
+#donate-btn{
+  display: block;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+
+/* News Letter Box */
+
+.news-letter-box{
+padding: 80px;
+background-color: #C6E4D6;
+border-radius: 30px;
+margin-bottom: 80px;
+text-align: center;
+
+
+}
+
+.letter-head{
+  font-size: 40px;
+  font-weight: bold;
   
+}
+
+.letter-para{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  opacity: 70%;
+}
+
+.letter-btn{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 17px 34px 17px 34px;
+  background-color: #006A50;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+}
 
 
  
@@ -360,8 +401,13 @@ text-align: center;
 
 
 
-  #donate-btn{
-    display: block;
-    margin: auto;
-    margin-bottom: 80px;
+  
+  /*Hover*/
+
+  .btn-primary:hover, .vision-btn-1:hover, .vision-btn-2:hover, .vision-btn-3:hover, .letter-btn:hover{
+    background-color: darkgray;
+  }
+
+  .donate-box:hover{
+    background-color: #C6E4D6;
   }
