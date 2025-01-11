@@ -55,14 +55,64 @@
   
   
 body{
-    margin: 0px 160px 0px 160px;
-    font-family: ;
-}
-nav{
-    display: flex;
-    margin: ;
+    margin: 0px 128px 0px 128px;
+    
 }
 
-p{
-    font-size: small;
+/*banner styles*/
+.banner-section{
+  height: 464px;
+  width: 1280px;
+  background-color: #C6E4D6;
+  border-radius: 20px;
+  border: none;
+  padding: 40px 0px 64px 48px;
+  display: flex;
+  margin: 120px 0px 100px;
+  display: flex;
+  justify-items: auto;
+  
+
+.banner-description{
+  width: 580px;
+  height: 260px;
+  padding: 14px 0px 18px 0px;
+  margin: 0px 40px 0px 0px;
+}
+
+.banner-greetings{
+  font-size: 24px;
+  font-weight: medium;
+  color: #0E0E0E;
+  opacity: 50%;
+  padding: 0px;
+  
+}
+
+.banner-title{
+  font-size: 56px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+
+.banner-img{
+  width: 380px;
+  height: 320px;
+  margin: 20px 0px 0px 40px;
+
+}
+
+/*Shared styles*/
+
+.btn-primary{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 17px 34px 17px 34px;
+  background-color: #006A50;
+  border-radius: 10px;
+  border: none;
+
+
+
 }
