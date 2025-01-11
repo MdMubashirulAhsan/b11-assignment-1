@@ -364,6 +364,7 @@ text-align: center;
 
 .news-letter-box{
 padding: 80px;
+max-width: 1150px;
 background-color: #C6E4D6;
 border-radius: 30px;
 margin-bottom: 80px;
