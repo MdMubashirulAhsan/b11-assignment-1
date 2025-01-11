@@ -162,10 +162,26 @@ body{
 }
 
 /* recent news styles*/
+
+.news-card-1{
+  width: 1280px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+}
+.news-img{
+  width: 430px;
+  height: 330px;
+  border-radius: 30px;
+  margin: 48px 32px 48px 48px;
+
+}
 .recent-news{
   font-size: 40px;
   font-weight: bold;
   color: #0E0E0E;
+  width: 1280px;
 }
 .news-description{
   font-size: 16px;
@@ -173,9 +189,7 @@ body{
   color: #0E0E0E;
   opacity: 70%;
 }
-.news-card-1{
-  display: flex;
-}
+
 
 .news-card-head{
   font-size: 32px;
@@ -189,6 +203,11 @@ body{
   font-weight: 400;
   opacity: 70%;
 }
+
+.news-btn{
+
+}
+
 /* donation section */
 
 .donate-title{
